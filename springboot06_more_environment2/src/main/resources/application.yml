@@ -1,0 +1,25 @@
+# 设置启用哪个环境
+spring:
+  profiles:
+    active: dev
+---
+# 开发环境
+spring:  # 最新的写法，下面的是过时的写法
+  config:
+    activate:
+      on-profile: ${profile.active}}
+server:
+  port: 8000
+---
+# 生产环境
+spring:
+  profiles: pro
+server:
+  port: 8001
+
+---
+# 测试环境
+spring:
+  profiles: test
+server:
+  port: 8002

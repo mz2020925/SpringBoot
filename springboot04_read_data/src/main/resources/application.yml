@@ -1,0 +1,12 @@
+lesson: springboot
+server:
+  port: 8000
+
+enterprise:
+  name: zmz
+  age: 23
+  tel: 13225757338
+  subject:
+    - java
+    - python
+    - C++

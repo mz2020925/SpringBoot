@@ -1,0 +1,14 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://39.101.74.139:3306/db1
+#    username: zmz
+#    password: Root_1234
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.101.74.139:3306/db1?serverTimezone=UTC
+    username: zmz
+    password: Root_1234
+    type: com.alibaba.druid.pool.DruidDataSource

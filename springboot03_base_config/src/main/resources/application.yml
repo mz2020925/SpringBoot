@@ -1,0 +1,14 @@
+# 第二种配置文件修改端口的方式
+server:
+  port: 8000
+
+logging:
+  level:
+    root: warn
+
+
+# yml中的数组数据格式
+likes:
+  - music
+  - book
+  - football
